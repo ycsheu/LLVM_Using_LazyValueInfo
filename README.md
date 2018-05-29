@@ -12,8 +12,9 @@ opt -load ./Demo.so -analyze -Demo utf8_to_utf7.ll
 Output
 ```
 base64
-  %40 = load i32, i32* %base64, align 4full-set
-  %60 = load i32, i32* %base64, align 4full-set
-  %71 = load i32, i32* %base64, align 4full-set
+  %40 = load i32, i32* %base64, align 4   Value range is : full-set
+  %60 = load i32, i32* %base64, align 4   Value range is : full-set
+  %71 = load i32, i32* %base64, align 4   Value range is : full-set
+
 
 ```
